@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>quiz_game.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+quiz_game.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># The Random Quiz just demonstrates basic input and response in python</span>
+
+<span class="s1">print(</span><span class="s2">&quot;This is the Random Quiz that doesn't matter&quot;</span><span class="s1">)</span>
+
+<span class="s1">playing = input(</span><span class="s2">&quot;Do you wish to play? &quot;</span><span class="s1">)</span>
+
+<span class="s3">if </span><span class="s1">playing != </span><span class="s2">&quot;yes&quot;</span><span class="s1">:</span>
+    <span class="s1">quit()</span>
+
+<span class="s1">letsplay = input(</span><span class="s2">&quot;even if it doesn't matter? &quot;</span><span class="s1">)</span>
+
+<span class="s3">if </span><span class="s1">letsplay != </span><span class="s2">&quot;yes&quot;</span><span class="s1">:</span>
+    <span class="s1">quit()</span>
+
+<span class="s1">print(</span><span class="s2">&quot;well ok...lets PLAY!!!!&quot;</span><span class="s1">)</span>
+
+<span class="s1">print(</span><span class="s2">&quot;first question...&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;What does GPU stand for? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;graphics processing unit&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;WRONG!!!!&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;How much wood would a woodchuck chuck if a woodchuck could chuck wood? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot; &quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;a woodchuck can't chuck wood&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;How many marbles are in the jar? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;alot&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;VERY ClOSE!!!...I think&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;If you have described something as indescribable, haven’t you already described it? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;you can't &quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;I'm confused...&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot; How many pennies do you think would fit into this room? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot; alot &quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;WRONG..ish!&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;Do you think if anything is possible, it’s still possible for anything to be impossible? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;yes&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;That's deep&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;That's impossible&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;If you punch yourself in the face and it hurts, are you weak or strong? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;strong&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Why would you do that?&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;Which bear is the most condescending? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;A pan-duh&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT!&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;A pan-duh!&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;What did Tennessee? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;The same thing as Arkansas&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;The same thing as Arkansas&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;When does a joke become a “dad joke”? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;When it becomes apparent&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;When it becomes apparent.&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;Why do you never see elephants hiding in trees? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;Because they’re so good at it&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Because they’re so good at it.&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;What invention allows us to see through walls? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;Windows&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Windows&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;What’s the least-spoken language in the world? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;Sign language&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Sign language&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;What do you call a hippie’s wife? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;Mississippi&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Mississippi&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;Why do cows wear bells? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;Because their horns don’t work&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Because their horns don’t work&quot;</span><span class="s1">)</span>
+
+<span class="s1">answer = input(</span><span class="s2">&quot;What do you call someone who always states the obvious? &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer == </span><span class="s2">&quot;Someone who always states the obvious&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;THAT'S RIGHT&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Someone who always states the obvious&quot;</span><span class="s1">)</span>
+</pre>
+</body>
+</html>
